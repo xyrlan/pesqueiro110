@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Pacifico, Fredoka } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
+const fredoka = Fredoka({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Pesqueiro 110, pescaria e lazer para toda a família! 🎣🌳🌞 Aquidauana - MS",
@@ -21,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} relative`}>
+      <body className={`${fredoka.className} relative`}>
         <Header />
         {children}
       </body>

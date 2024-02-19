@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
 import { NavbarMenu } from './Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -6,15 +7,31 @@ import { Button } from './ui/button'
 import Banner from './Banner'
 
 const Header = () => {
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsSticky(scrollPosition > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="bg-white sticky top-0 z-50">
+    <header className={`fixed w-full z-50 bg-white  border-b-white border-b border-opacity-60 transition-all duration-500 ${isSticky ? '' : 'bg-opacity-50'}`}>
       <Banner />
       <div className="mx-auto container px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
-              <Image src="/images/pesqueiro110.png" alt="Pesqueiro 110" width={200} height={200} className='h-24 w-auto' />
+              <Image src="/images/pesqueiro110.png" alt="Pesqueiro 110" width={200} height={200} className='h-14 sm:h-24 w-auto' />
             </a>
           </div>
 
@@ -23,7 +40,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="sm:flex sm:gap-4">
+            <div className="max-md:hidden sm:flex sm:gap-4">
               <Link
                 href="#"
               >
