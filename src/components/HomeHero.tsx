@@ -28,7 +28,7 @@ const HomeHero = () => {
 
 
   return (
-    <section className="flex min-h-screen sm:p-24 py-24 relative text-white">
+    <section className="flex min-h-screen sm:p-24 sm:py-24 py-8 relative text-white">
       {/* <Image src={'/images/rioaqui.jpg'} fill alt='rioaquida' className='w-full h-full absolute object-cover' /> */}
       <video autoPlay muted loop playsInline className='absolute top-0 left-0 w-full h-full object-cover'>
         <source src="/images/river1080p.mp4" type="video/mp4" />

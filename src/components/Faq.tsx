@@ -41,9 +41,9 @@ const Faq = () => {
         <Accordion type="multiple" >
           {faqData.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger><h2 className='text-xl text-secondary'>{faq.question}</h2></AccordionTrigger>
+              <AccordionTrigger><h2 className='md:text-xl text-primary'>{faq.question}</h2></AccordionTrigger>
               <AccordionContent>
-                <p className='max-md:text-base font-medium text-lg text-gray-700'>{faq.answer}</p>
+                <p className='max-md:text-base font-medium md:text-lg text-gray-700'>{faq.answer}</p>
               </AccordionContent>
             </AccordionItem>
           ))}

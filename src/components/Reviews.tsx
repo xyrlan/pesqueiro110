@@ -6,7 +6,7 @@ import FiveStars from './FiveStars';
 const Reviews = () => {
   const reviews = [
     {
-      name: 'marcosverni',
+      name: 'Nivaldo Sabino',
       comment: 'Pesqueiro localizado a 110 kms de Campo Grande, na beira da BR rumo a Aquidauana. Muito boa estrutura física com varios apartamentos, sendo alguns com ar condicionado e TV. O acesso ao rio Aquidauana é fácilimo. Alugam barcos, motores, vendem iscas. Para quem gosta pescar de barranco há estrutura de madeira excelente para isso. Possui restaurante com otimas refeições. O atendimento é muito bom,sendo o proprietário Sr. Carlos, muito atencioso e cordial. Recomendo!!!',
       img: 'https://lh3.googleusercontent.com/a-/ALV-UjVuZGkT8BiBNRBHBmvbH7oW9ZarFPgeiwBOxWmBWnmpP51j=s40-c-rp-mo-ba4-br100'
     },
