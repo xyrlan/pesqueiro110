@@ -28,9 +28,9 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="bg-primary py-8 px-4 ">
+    <section id='review' className="bg-primary py-8 sm:py-20 px-4 ">
       <div className=" text-black p-4 rounded-lg sm:container">
-        <h2 className="text-3xl font-semibold mb-4 text-secondary max-sm:text-center">Depoimentos reais Google</h2>
+        <h2 className="text-3xl font-semibold mb-8 text-secondary max-sm:text-center">Depoimentos reais Google</h2>
         <div className="grid xl:grid-cols-4 gap-4 md:grid-cols-3">
           {reviews.map((review, index) => (
             <div key={index} className="bg-gray-100 p-4 rounded-lg shadow">
@@ -49,7 +49,7 @@ const Reviews = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

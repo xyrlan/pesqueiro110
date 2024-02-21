@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 bg-white  border-b-white border-b border-opacity-60 transition-all duration-500 ${isSticky ? '' : 'bg-opacity-50'}`}>
+    <header className={`fixed w-full z-50 bg-white  border-b border-opacity-60 transition-all duration-500 ${isSticky ? 'border-b-primary' : 'bg-opacity-50 border-b-white'}`}>
       <Banner />
       <div className="mx-auto container px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between">

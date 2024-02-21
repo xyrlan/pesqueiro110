@@ -34,7 +34,7 @@ const Faq = () => {
   ];
 
   return (
-    <section className="sm:py-24 py-12 bg-[url('/images/fish-icon-1.png')] bg-no-repeat bg-blend-exclusion bg-[bottom_left] max-sm:bg-right  bg-fixed bg-white">
+    <section id='faq' className="sm:py-24 py-12 bg-[url('/images/fish-icon-1.png')] bg-no-repeat bg-blend-exclusion bg-[bottom_left] max-sm:bg-right  bg-fixed bg-white">
       <div className="container px-4 sm:px-6 lg:px-8">
         <h2 className="text-xl sm:text-3xl font-extrabold text-secondary mb-10 max-sm:text-center">FAQ - Perguntas mais frequentes <span className=''></span> </h2>
 
