@@ -5,7 +5,7 @@ import React from 'react'
 
 const SobreCard = ({ image, text, title, href }: any) => {
   return (
-    <Link href="#" className="group relative block h-64 sm:h-80 lg:h-96 w-full text-white">
+    <Link href={href} className="group relative block h-64 sm:h-80 lg:h-96 w-full text-white">
 
       <span className="absolute inset-0 border-2 border-dashed border-primary z-0"></span>
 
