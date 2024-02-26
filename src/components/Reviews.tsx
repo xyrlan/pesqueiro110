@@ -27,10 +27,21 @@ const Reviews = () => {
     },
   ];
 
+  const fotos = [
+    '/images/pesqueirohomem.jpg',
+    '/images/sobrepic3.jpg',
+    '/images/sobrepic4.jpg',
+    '/images/sobrepic.jpg',
+    '/images/sobrepic6.jpg',
+
+    '/images/sobrepic5.jpg',
+
+  ]
+
   return (
     <section id='review' className="bg-primary py-8 sm:py-20 px-4 ">
       <div className=" text-black p-4 rounded-lg sm:container">
-        <h2 className="text-3xl font-semibold mb-8 text-secondary max-sm:text-center">Depoimentos reais Google</h2>
+        <h2 className="text-3xl sm:text-5xl font-semibold mb-8 text-secondary max-sm:text-center">Depoimentos reais Google</h2>
         <div className="grid xl:grid-cols-4 gap-4 md:grid-cols-3">
           {reviews.map((review, index) => (
             <div key={index} className="bg-gray-100 p-4 rounded-lg shadow">
@@ -49,8 +60,14 @@ const Reviews = () => {
           ))}
         </div>
       </div>
+        <div  className='grid grid-cols-2 xl:grid-cols-6 gap-4 mt-10'>
+          {fotos.map((foto, index) => (
+            <Image src={foto} width={400} height={400} alt='sobrepic' className='w-full h-[200px] lg:h-[370px] object-cover'  key={index}/>
+
+          ))}
+        </div>
     </section>
   );
-};
+}
 
 export default Reviews;

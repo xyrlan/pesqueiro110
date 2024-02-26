@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Pacifico, Fredoka } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { headers } from "next/headers"
 
 const inter = Inter({ subsets: ["latin"] });
 const fredoka = Fredoka({ subsets: ["latin"]});
@@ -23,11 +25,25 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const heads = headers()
+  const pathname = heads.get('next-url')
+
+if(pathname?.startsWith('/estudio')) {
+  return (
+    <html lang="pt-BR">
+      <body className={`${inter.className} relative`}>
+        {children}
+      </body>
+    </html>
+  )
+}
+
   return (
     <html lang="pt-BR">
       <body className={`${fredoka.className} relative`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

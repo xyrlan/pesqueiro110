@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const HospedagemPage = () => {
@@ -14,7 +15,7 @@ const HospedagemPage = () => {
           <Image src={'/images/cama.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
-          <h2 className='text-3xl text-secondary'>
+          <h2 className='text-3xl text-secondary font-medium'>
             Área de Camping
           </h2>
           <p className='max-w-lg text-center'>Não é cobrado tarifa de entrada, no camping temos várias churrasqueiras disponíveis inclusive três piscinas infantis, biribol e social já incluso nas diárias</p>
@@ -23,7 +24,7 @@ const HospedagemPage = () => {
           </p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
-          <h2 className='text-3xl text-secondary'>
+          <h2 className='text-3xl text-secondary font-medium'>
             Casa para alugar
           </h2>
           <p className='max-w-lg text-center'>
@@ -32,7 +33,7 @@ const HospedagemPage = () => {
           <p className='text-primary font-medium'> <span className='text-secondary font-medium'>Diária:</span> R$ 90,00 por pessoa.</p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
-          <h2 className='text-3xl text-secondary'>
+          <h2 className='text-3xl text-secondary font-medium'>
             Apartamentos do Fundo
           </h2>
           <p className='text-primary font-medium'>
@@ -43,7 +44,7 @@ const HospedagemPage = () => {
           </p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
-          <h2 className='text-3xl text-secondary'>
+          <h2 className='text-3xl text-secondary font-medium'>
             Apartamentos da Frente
           </h2>
           <p className='text-primary font-medium'>
@@ -53,7 +54,11 @@ const HospedagemPage = () => {
             <span className='text-secondary font-medium'>Diária:</span> R$ 290,00 por pessoa (com café, almoço e jantar refeições).
           </p>
         </div>
-        <Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'><a href={'https://api.whatsapp.com/send?phone=5532999999999&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20reserva%20para%20hospedagem%20no%20Pesqueiro%20do%20Riacho%20Frio.'}>Reservar</a></Button>
+        <Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'}>
+          <Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'>
+          Fazer Reserva
+          </Button>
+        </Link>
       </div>
     </section>
   )

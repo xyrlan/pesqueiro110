@@ -53,7 +53,7 @@ const PesqueiroPage = () => {
             </span>
           </div>
         </div>
-<Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'><Link href={'/fotos'}>Agendar minha pesca</Link></Button>  
+<Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'><Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20agendar%20minha%20pesca'}>Agendar minha pesca</Link></Button>  
       </div>
     </section>
   )

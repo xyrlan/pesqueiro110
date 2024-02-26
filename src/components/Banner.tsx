@@ -32,7 +32,7 @@ export default function Banner() {
           </li>
           <li>
             <Link
-              href=""
+              href="https://www.facebook.com/p/Pesqueiro-e-Pousada-110-100066718534380/"
               rel="noreferrer"
               target="_blank"
               className=" transition hover:opacity-75"
@@ -50,7 +50,7 @@ export default function Banner() {
           </li>
           <li>
             <Link
-              href=""
+              href="https://www.instagram.com/pesqueiro110/"
               rel="noreferrer"
               target="_blank"
               className=" transition hover:opacity-75"
