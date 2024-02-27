@@ -87,7 +87,7 @@ const Footer = () => {
                 <Link href={{ query: { title: 'review' } }} className="text-secondary transition hover:opacity-75"> Avaliações </Link>
               </li>
               <li>
-                <Link href={{ query: { title: 'marcas' } }} className="text-secondary transition hover:opacity-75"> Nossas marcas </Link>
+                <Link href={{ query: { title: 'nossas-marcas' } }} className="text-secondary transition hover:opacity-75"> Nossas marcas </Link>
               </li>
               <li>
                 <Link href={{ pathname: '/', query: { title: 'faq' } }} className="text-secondary transition hover:opacity-75"> FAQ </Link>

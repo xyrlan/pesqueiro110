@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   publisher: "Pesqueiro 110",
   creator: "Pesqueiro 110",
   bookmarks: "Pesqueiro 110",
+  alternates: {
+    canonical: "https://pesqueiro110.com.br",
+  }
 };
 
 export default function RootLayout({
