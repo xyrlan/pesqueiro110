@@ -51,6 +51,8 @@ const Header = () => {
         { name: 'Vídeos', href: '/videos' },
       ],
     },
+    { name: 'Missão', href: '/mvv' },
+
     { name: 'Reserve', href: 'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva' },
   ]
 
