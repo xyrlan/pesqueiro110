@@ -89,30 +89,29 @@ const Header = () => {
 
             <Sheet>
               <SheetTrigger>
-                <div className="block md:hidden">
-                  <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                  </button>
+
+                <div className="block md:hidden rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
                 </div>
+
               </SheetTrigger>
-              <SheetContent>
+              <SheetContent className=' overflow-y-auto '>
                 <SheetHeader>
                   <SheetTitle>
                     <div className='w-full flex justify-center'>
                       <Image src={'/images/pesqueiroicon.png'} width={200} height={200} alt='pesqueiro' className='h-20 w-auto' />
-
                     </div>
                   </SheetTitle>
-                  <SheetDescription className='text-start '>
+                  <SheetDescription className='text-start'>
                     {navigation.map((item) => (
                       <div key={item.name} className='border-b border-secondary/20'>
                         <SheetClose asChild>

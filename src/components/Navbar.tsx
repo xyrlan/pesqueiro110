@@ -149,7 +149,6 @@ export function NavbarMenu() {
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
-
     </NavigationMenu>
 
   )

@@ -15,7 +15,7 @@ const MasonryGrid = ({ posts }: { posts: FotoVideoPost[] }) => {
     <motion.section initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1 }} id='cursos' className="flex min-h-screen justify-center p-12 py-32 sm:py-44 px-6 sm:p-24 bg-primary">
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <h2 className="text-center text-4xl font-medium tracking-tight text-white sm:text-5xl mb-8 sm:mb-12">
-          {posts && posts[0]?._type === 'videoPost' ? 'Feed de vídeos' : 'Feed de fotos'}
+          {posts.length != 0 && (posts[0]?._type === 'videoPost' ? 'Feed de vídeos' : 'Feed de fotos')}
         </h2>
 
         <div className="mt-8 [column-fill:_balance] sm:columns-2 spacce-y sm:gap-6 lg:columns-3 lg:gap-8">
