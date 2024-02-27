@@ -3,9 +3,10 @@ import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 import SobreCard from './SobreCard'
+import Link from 'next/link'
 
 const HomeHero = () => {
- 
+
   function handleScrollTo() {
     const sobre = document.getElementById('sobre')
     sobre?.scrollIntoView({ behavior: 'smooth' })
@@ -39,17 +40,18 @@ const HomeHero = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-center justify-center">
-              <Button >
-                Fazer Reserva
-              </Button>
-
+              <Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'} >
+                <Button >
+                  Fazer Reserva
+                </Button>
+              </Link>
               <Button onClick={handleScrollTo} variant={'primary'} >
                 Saber mais
               </Button>
             </div>
           </div>
         </div>
-       
+
       </div>
     </section>
   )

@@ -92,6 +92,15 @@ const Footer = () => {
               <li>
                 <Link href={{ pathname: '/', query: { title: 'faq' } }} className="text-secondary transition hover:opacity-75"> FAQ </Link>
               </li>
+              <li>
+                <Link href={{ pathname: '/mvv'}} className="text-secondary transition hover:opacity-75"> Missão </Link>
+              </li>
+              <li>
+                <Link href={{ pathname: '/hospedagem'}} className="text-secondary transition hover:opacity-75"> Hospedagem </Link>
+              </li>
+              <li>
+                <Link href={{ pathname: '/restaurante'}} className="text-secondary transition hover:opacity-75"> Restaurante </Link>
+              </li>
 
 
             </ul>
