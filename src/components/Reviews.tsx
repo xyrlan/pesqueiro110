@@ -1,5 +1,4 @@
 import React from 'react';
-import quote from '../assets/quote.png'; // Import the quote icon
 import Image from 'next/image';
 import FiveStars from './FiveStars';
 
