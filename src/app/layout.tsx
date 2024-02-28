@@ -20,8 +20,18 @@ export const metadata: Metadata = {
   bookmarks: "Pesqueiro 110",
   alternates: {
     canonical: "https://pesqueiro110.com.br",
+  },
+  openGraph: {
+    title: "Pesqueiro 110 - Aquidauana - MS",
+    siteName: "Pesqueiro 110",
+    description: "Pesqueiro 110, um lugar para relaxar e aproveitar a natureza. 🎣🌳🌞 Aquidauana - MS",
+    url: "https://pesqueiro110.com.br",
+    type: "website",
+    images: [
+    "https://www.pesqueiro110.com.br/_next/image?url=%2Fimages%2Fpesqueiro110.png&w=256&q=75",
+    ],
+  },
   }
-};
 
 export default function RootLayout({
   children,
