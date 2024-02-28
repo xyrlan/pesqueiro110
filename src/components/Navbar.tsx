@@ -142,7 +142,7 @@ export function NavbarMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/restaurante" legacyBehavior passHref>
+          <Link href="/mvv" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <p className="text-primary">Missão</p>
             </NavigationMenuLink>
