@@ -12,14 +12,18 @@ const RestauranteSection = () => {
           <strong className='text-lg text-primary'>DESFRUTE DE UMA BOA COMIDA E DA TRANQUILIDADE DO AR LIVRE</strong>
         </h1>
         <div className='mt-20'>
-          <h2 className='text-center text-2xl mb-5 '>Almoço Comercial</h2>
+          <h2 className='text-center text-2xl mb-5 text-primary'>Almoço Comercial</h2>
           <div className='flex gap-10 items-center sm:flex-row flex-col'>
-            <div className='sm:w-1/2 text-center space-y-4'>
-              <p><strong className='text-primary'>Horário:</strong> 
+            <div className='sm:w-1/2 text-center space-y-8 sm:text-lg'>
+              <p><strong className='text-primary'>Horários:</strong>{' '} 
+              <br/>
               <span>Almoço: 11:00 horas às 15:00 horas</span>
+              <br/>
               <span>Janta: 18:00 horas às 23:00 horas</span>
               </p>
-              <p><strong className='text-primary'>Preparo:</strong> Comida caseira preparada no fogão a lenha.</p>
+              <p><strong className='text-primary'>Preparo:</strong> 
+              <br/>
+              Comida caseira preparada no fogão a lenha.</p>
             </div>
             <Image className='sm:w-1/2 max-h-[400px] object-contain' src={'/images/comida.jpeg'} width={300} height={300} alt='almoco' />
           </div>
