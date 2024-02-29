@@ -36,7 +36,7 @@ const ParceirosSection = () => {
   return (
     <section id='nossas-marcas' className='bg-primary py-20'>
       <div className="sm:container mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className='text-secondary font-semibold  max-sm:text-center sm:text-5xl text-3xl  mb-14'>Conheça nossas Marcas</h2>
+        <h2 className='text-secondary font-semibold  max-sm:text-center sm:text-5xl text-3xl mb-10 md:mb-20'>Conheça nossas Marcas</h2>
 
         <div className="flex max-md:flex-col items-center gap-x-8 justify-between gap-y-12">
           {brands.map((brand, index) => (

@@ -4,9 +4,10 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { headers } from "next/headers"
+import { Providers } from "@/lib/providers";
 
 const inter = Inter({ subsets: ["latin"] });
-const fredoka = Fredoka({ subsets: ["latin"]});
+const fredoka = Fredoka({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pesqueiro 110 - Aquidauana - MS",
@@ -28,10 +29,10 @@ export const metadata: Metadata = {
     url: "https://pesqueiro110.com.br",
     type: "website",
     images: [
-    "https://www.pesqueiro110.com.br/_next/image?url=%2Fimages%2Fpesqueiro110.png&w=256&q=75",
+      "https://www.pesqueiro110.com.br/_next/image?url=%2Fimages%2Fpesqueiro110.png&w=256&q=75",
     ],
   },
-  }
+}
 
 export default function RootLayout({
   children,
@@ -41,22 +42,24 @@ export default function RootLayout({
   const heads = headers()
   const pathname = heads.get('next-url')
 
-if(pathname?.startsWith('/estudio')) {
-  return (
-    <html lang="pt-BR">
-      <body className={`${inter.className} relative`}>
-        {children}
-      </body>
-    </html>
-  )
-}
+  if (pathname?.startsWith('/estudio')) {
+    return (
+      <html lang="pt-BR">
+        <body className={`${inter.className} relative`}>
+          {children}
+        </body>
+      </html>
+    )
+  }
 
   return (
     <html lang="pt-BR">
       <body className={`${fredoka.className} relative`}>
-        <Header />
-        {children}
-        <Footer />
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

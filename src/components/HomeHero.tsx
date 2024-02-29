@@ -4,6 +4,7 @@ import React from 'react'
 import { Button } from './ui/button'
 import SobreCard from './SobreCard'
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 const HomeHero = () => {
 
@@ -26,7 +27,7 @@ const HomeHero = () => {
         <div
           className=" lg:flex lg:items-center justify-center "
         >
-          <div className="max-w-xl text-center  ">
+          <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className="max-w-xl text-center  ">
             <h1 className="text-3xl font-extrabold sm:text-7xl my-10 flex flex-col items-center gap-2">
               Seja Bem Vindo ao
 
@@ -49,7 +50,7 @@ const HomeHero = () => {
                 Saber mais
               </Button>
             </div>
-          </div>
+          </motion.div>
         </div>
 
       </div>

@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import SobreCard from './SobreCard'
 import Image from 'next/image'
 import { Button } from './ui/button'
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 const HomeSobre = () => {
   const content = [
@@ -32,9 +34,12 @@ const HomeSobre = () => {
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 flex-shrink">
           <div className='lg:w-1/2 flex xl:flex-row flex-col gap-2 max-xl:items-center '>
-            <Image src={'/images/riopesqueiro.jpg'} width={400} height={400} alt='sobrepic' className='object-contain md:h-[300px] w-auto' />
-            {/* <Image src={'/images/riopesqueiro.jpg'} width={400} height={400} alt='sobrepic' className='object-contain h-[300px] w-auto absolute bottom-0 right-0 max-md:hidden ' /> */}
-            <Image src={'/images/pesqueiroimage2.jpg'} width={400} height={400} alt='sobrepic' className='object-contain md:h-[300px] w-auto xl:self-end' />
+            <motion.div initial={{ opacity: 0, x: -200 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} viewport={{ once: true }} className=' '>
+              <Image src={'/images/riopesqueiro.jpg'} width={400} height={400} alt='sobrepic' className='object-contain md:h-[300px] w-auto' />
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} viewport={{ once: true }} className=' w-auto xl:self-end'>
+              <Image src={'/images/pesqueiroimage2.jpg'} width={400} height={400} alt='sobrepic' className='object-contain md:h-[300px] w-auto' />
+            </motion.div>
           </div>
           <div className='md:w-1/2 max-sm:text-center'>
             <h2 className="text-xl sm:text-3xl font-extrabold text-secondary mb-10">Pesqueiro & Pousada & Restaurante <span className=''>110</span>
@@ -58,11 +63,11 @@ const HomeSobre = () => {
         </div>
         <div className='md:mt-40 mt-20'>
           <h2 className="text-3xl font-extrabold text-primary mb-10 max-sm:text-center">Muito Mais que Um Pesqueiro</h2>
-          <div className='flex sm:flex-row flex-col justify-between gap-10'>
+          <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} viewport={{ once: true }} className='flex sm:flex-row flex-col justify-between gap-10 md:mt-20'>
             {content.map((item, index) => (
               <SobreCard key={index} {...item} />
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
