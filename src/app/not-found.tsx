@@ -7,7 +7,7 @@ const notFoundPage = () => {
   return (
     <div className="grid min-h-screen place-content-center bg-white px-4 py-52">
       <div className="text-center flex flex-col md:flex-row  items-center md:gap-20">
-        <Image src={'/images/fisher.png'} width={500} height={500} alt='404' className='w-auto h-auto' />
+        <Image src={'/images/fisher.png'} width={500} height={500} alt='404' className='w-auto max-h-[300px]' />
         <div className='text-center'>
           <h1 className="mt-6 text-2xl font-bold tracking-tight text-primary sm:text-4xl">
             <span className='text-9xl font-bold tracking-tight text-primary sm:text-9xl'>404</span>
