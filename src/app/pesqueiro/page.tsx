@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export const meta: Metadata = {
+export const metadata: Metadata = {
   title: 'Pesqueiro - Pesqueiro 110',
   description: 'Aluguel de barcos, materiais de pesca e transporte para outros pontos de pesca.',
   keywords: ['Pesqueiro', 'Pesca', 'Aluguel de barcos', 'Materiais de pesca', 'Transporte para outros pontos de pesca', 'Pantanal', 'Aquidauana', 'Pantanal Sul', 'Pantanal MS', 'Pantanal Sul MS', 'Pantanal Mato Grosso do Sul', 'Pantanal Aquidauana', 'Pantanal Aquidauana MS', 'Pantanal Sul Aquidauana', 'Pantanal Sul Aquidauana MS', 'Pantanal Mato Grosso do Sul Aquidauana', 'Pantanal Mato Grosso do Sul Aquidauana MS', 'Pantanal Pesca', 'Pantanal Pesqueiro', 'Pantanal Pousada', 'Pantanal Lazer', 'Pantanal Pescaria', 'Pantanal Família', 'Pantanal Lazer', 'Pantanal Pantanal', 'Pantanal MS Pantanal', 'Pantanal Sul Pantanal', 'Pantanal Sul MS Pantanal', 'Pantanal Mato Grosso do Sul Pantanal', 'Pantanal Aquidauana Pantanal', 'Pantanal Aquidauana MS Pantanal', 'Pantanal Sul Aquidauana Pantanal', 'Pantanal Sul Aquidauana MS Pantanal', 'Pantanal Mato Grosso do Sul Aquidauana Pantanal', 'Pantanal Mato Grosso do Sul Aquidauana MS Pantanal', 'Pantanal Pesca Pantanal', 'Pantanal Pesqueiro Pantanal', 'Pantanal Pousada Pantanal', 'Pantanal Lazer Pantanal', 'Pantanal Pescaria Pantanal', 'Pantanal Família Pantanal', 'Pantanal Lazer Pantanal', 'Pescarias MS'],
