@@ -14,9 +14,13 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { usePathname } from 'next/navigation'
 
 
 const Header = () => {
+  const pathname = usePathname()
+
+  
 
   const [isSticky, setIsSticky] = useState(false);
 
@@ -57,7 +61,8 @@ const Header = () => {
   ]
 
 
-
+  if(pathname.startsWith('/estudio')) return null
+  
   return (
     <header className={`fixed w-full z-50 bg-white  border-b border-opacity-60 transition-all duration-500 ${isSticky ? 'border-b-primary' : 'bg-opacity-50 border-b-white'}`}>
       <Banner />

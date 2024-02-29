@@ -39,18 +39,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const heads = headers()
-  const pathname = heads.get('next-url')
-
-  if (pathname?.startsWith('/estudio')) {
-    return (
-      <html lang="pt-BR">
-        <body className={`${inter.className} relative`}>
-          {children}
-        </body>
-      </html>
-    )
-  }
 
   return (
     <html lang="pt-BR">

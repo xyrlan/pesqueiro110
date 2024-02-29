@@ -7,6 +7,7 @@ import React from 'react'
 
 const Footer = () => {
   const query = useSearchParams()
+  const pathname = usePathname()
 
   React.useEffect(() => {
     const current = query.get('title');
@@ -17,6 +18,10 @@ const Footer = () => {
       }
     }
   }, [query]);
+
+  if(pathname.startsWith('/estudio')) return null
+
+
   return (
     <footer className="bg-gray-100 border-t border-primary/50">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
