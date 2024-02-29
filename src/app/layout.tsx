@@ -5,6 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { headers } from "next/headers"
 import { Providers } from "@/lib/providers";
+import { Suspense } from "react";
+
 
 const inter = Inter({ subsets: ["latin"] });
 const fredoka = Fredoka({ subsets: ["latin"] });
@@ -43,11 +45,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${fredoka.className} relative`}>
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-        </Providers>
+        <Suspense>
+          <Providers>
+            <Header />
+            {children}
+            <Footer />
+          </Providers>
+        </Suspense>
       </body>
     </html>
   );
