@@ -15,24 +15,24 @@ const RestauranteSection = () => {
           <h2 className='text-center text-2xl mb-5 text-primary'>Almoço Comercial</h2>
           <div className='flex gap-10 items-center sm:flex-row flex-col'>
             <div className='sm:w-1/2 text-center space-y-8 sm:text-lg'>
-              <p><strong className='text-primary'>Horários:</strong>{' '} 
-              <br/>
-              <span>Almoço: 11:00 horas às 15:00 horas</span>
-              <br/>
-              <span>Janta: 18:00 horas às 23:00 horas</span>
+              <p><strong className='text-primary'>Horários:</strong>{' '}
+                <br />
+                <span>Almoço: 11:00 horas às 15:00 horas</span>
+                <br />
+                <span>Janta: 18:00 horas às 23:00 horas</span>
               </p>
-              <p><strong className='text-primary'>Preparo:</strong> 
-              <br/>
-              Comida caseira preparada no fogão a lenha.</p>
+              <p><strong className='text-primary'>Preparo:</strong>
+                <br />
+                Comida caseira preparada no fogão a lenha.</p>
             </div>
             <Image className='sm:w-1/2 max-h-[400px] object-contain' src={'/images/comida.jpeg'} width={300} height={300} alt='almoco' />
           </div>
         </div>
         <div className='flex justify-center'>
           <Link target='_blank' href={'https://cardapioja.com.br/pesqueiro110'}>
-          <Button className='mt-20'>
-            Acesse aqui o cardápio
-          </Button>
+            <Button className='mt-20'>
+              Acesse aqui o cardápio
+            </Button>
           </Link>
         </div>
 
@@ -41,8 +41,11 @@ const RestauranteSection = () => {
           <h2 className='text-2xl'>Especialidades</h2>
           Card com pratos mais famosos do restaurante
         </div> */}
-
+        <div>
+          <h2 className='text-2xl'>Projeto para reforma do restaurante</h2>
+        </div>
       </div>
+
     </section>
   )
 }
