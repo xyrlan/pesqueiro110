@@ -35,6 +35,7 @@ const BlogFotosPage = async () => {
     tags: ["fotoPost"],
   })
 
+  console.log(fotos)
 
   return (
     <MasonryGrid posts={fotos} />

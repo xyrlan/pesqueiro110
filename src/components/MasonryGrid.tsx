@@ -10,7 +10,7 @@ import { FotoPost, FotoVideoPost, VideoPost } from '../../sanity/lib/queries';
 
 
 const MasonryGrid = ({ posts }: { posts: FotoVideoPost[] }) => {
-
+  console.log(posts)
   return (
     <motion.section initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1 }} id='cursos' className="flex min-h-screen justify-center p-12 py-32 sm:py-44 px-6 sm:p-24 bg-primary">
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
@@ -34,7 +34,7 @@ const MasonryGrid = ({ posts }: { posts: FotoVideoPost[] }) => {
 
                 <video controls className="h-auto max-w-full rounded">
                   <source src={urlForVideo(post.video)!} type="video/mp4" />
-                  Your browser does not support the video tag.
+                  Seu navegador nao suporta o Video.
                 </video>
 
               )}
