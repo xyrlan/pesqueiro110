@@ -16,7 +16,7 @@ const RestauranteSection = () => {
       <div className='sm:container px-4 sm:px-6 lg:px-8 py-32'>
         <h1 className='text-center text-4xl text-secondary'>Restaurante
           <br />
-          <strong className='text-lg text-primary'>DESFRUTE DE UMA BOA COMIDA E DA TRANQUILIDADE DO AR LIVRE</strong>
+          <strong className='text-lg text-primary'>DESFRUTE DE UMA BOA COMIDA E DA TRANQUILIDADE AO AR LIVRE</strong>
         </h1>
         <div className='mt-20'>
           <h2 className='text-center text-2xl mb-5 text-primary'>Almoço Comercial</h2>

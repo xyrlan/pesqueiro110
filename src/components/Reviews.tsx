@@ -39,7 +39,7 @@ const Reviews = () => {
   return (
     <section id='review' className="bg-primary py-8 sm:py-20 px-4 ">
       <div className=" text-black p-4 rounded-lg sm:container">
-        <h2 className="text-3xl sm:text-5xl font-semibold mb-10 md:mb-20 text-secondary max-sm:text-center">Oque nossos clientes falam</h2>
+        <h2 className="text-3xl sm:text-5xl font-semibold mb-10 md:mb-20 text-secondary max-sm:text-center">O que nossos clientes falam</h2>
         <div className="grid xl:grid-cols-4 gap-4 md:grid-cols-3">
           {reviews.map((review, index) => (
             <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.1 * index }} viewport={{ once: true }} key={index} className="bg-gray-100 p-4 rounded-lg shadow">

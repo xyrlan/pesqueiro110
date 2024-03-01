@@ -40,7 +40,7 @@ const HospedagemPage = () => {
             <span className='text-secondary font-medium'>Diária:</span> R$ 130,00 por pessoa (sem refeições).
           </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 230,00 por pessoa (com café, almoço e jantar refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 230,00 por pessoa (com café, almoço e jantar).
           </p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
@@ -51,7 +51,7 @@ const HospedagemPage = () => {
             <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
           </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 290,00 por pessoa (com café, almoço e jantar refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 290,00 por pessoa (com café, almoço e jantar).
           </p>
         </div>
         <Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'}>
