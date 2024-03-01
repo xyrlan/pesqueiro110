@@ -4,6 +4,13 @@ import { Button } from './ui/button'
 import Link from 'next/link'
 
 const RestauranteSection = () => {
+
+  const projetoImages = [
+    '/images/projeto.jpeg',
+    '/images/projeto2.jpeg',
+    '/images/projeto3.jpeg',
+    '/images/projeto4.jpeg',
+  ]
   return (
     <section className="sm:py-24 py-12 bg-[url('/images/fish-icon-1.png')] min-h-screen bg-no-repeat bg-blend-exclusion bg-[bottom_left] max-sm:bg-right bg-fixed bg-white">
       <div className='sm:container px-4 sm:px-6 lg:px-8 py-32'>
@@ -42,7 +49,15 @@ const RestauranteSection = () => {
           Card com pratos mais famosos do restaurante
         </div> */}
         <div>
-          <h2 className='text-2xl'>Projeto para reforma do restaurante</h2>
+          <h2 className='text-3xl text-secondary mt-20 mb-10'>Projeto para reforma do restaurante</h2>
+          <div className='flex gap-10 items-center sm:flex-row flex-col'>
+            <div className='grid lg:grid-cols-4 max-sm:grid-cols-1 sm:grid-cols-2 gap-2'>
+              {projetoImages.map((img, index) => (
+                <Image key={index} className=' max-h-[400px] object-contain' src={img} width={400} height={300} alt='projeto' />
+              ))
+              }
+            </div>
+          </div>
         </div>
       </div>
 
