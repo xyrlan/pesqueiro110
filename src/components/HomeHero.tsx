@@ -37,7 +37,7 @@ const HomeHero = () => {
 
 
             <p className="mt-4 sm:text-xl/relaxed ">
-              Aqui você encontra pescaria e lazer para toda a familia, venha desfrutar de uma boa pescaria.
+            Aqui você encontra o melhor da gastronomia, lazer e pesca para toda a família. Venha desfrutar de uma natureza exuberante e fazer parte da nossa história. Estamos esperando por você! <br/> Mais uma pintura do nosso maravilhoso Rio Aquidauana.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-center justify-center">
