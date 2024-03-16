@@ -34,6 +34,7 @@ const MasonryGrid = ({ posts }: { posts: FotoVideoPost[] }) => {
 
                 <video preload='metadata' controls className="h-auto max-w-full rounded">
                   <source src={urlForVideo(post.video)!} type="video/mp4" />
+                  <source src={urlForVideo(post.video)!} type="video/quicktime" />
                   Seu navegador nao suporta o Video.
                 </video>
 
