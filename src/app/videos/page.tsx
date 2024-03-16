@@ -3,6 +3,7 @@ import { VideoPost, videoPostQuery } from '../../../sanity/lib/queries'
 import { sanityFetch } from '../../../sanity/lib/client'
 import MasonryGrid from '@/components/MasonryGrid'
 import { Metadata } from 'next'
+import MasonryGridVideo from '@/components/MasonryGridVideo'
 
 export const metadata: Metadata = {
   title: "Videos - Pesqueiro 110",
@@ -48,7 +49,7 @@ const VideosPage = async () => {
           <iframe width='100%' height={'315'} src="https://www.youtube.com/embed/aFG0iaFI6Bo?si=58BKUCgfZxaaUTXX" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
       </div>
-      <MasonryGrid posts={videos} />
+      <MasonryGridVideo posts={videos} />
     </section>
 
   )
