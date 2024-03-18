@@ -20,7 +20,7 @@ const Faq = () => {
     },
     {
       question: "QUAL O PREÇO DA COMIDA?",
-      answer: "Restaurante almoço e jantar R$ 40,00 cada, café da manhã R$ 25,00."
+      answer: "Consultar o nosso cardápio."
     },
     {
       question: "CRIANÇAS PAGAM?",
