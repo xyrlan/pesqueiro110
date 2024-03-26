@@ -50,7 +50,7 @@ const HospedagemPage = () => {
           </p>
 
         </div>
-        <Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'}>
+        <Link href={'https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'}>
           <Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'>
             Fazer Reserva
           </Button>

@@ -7,7 +7,7 @@ export default function Banner() {
     <div className="relative overflow-hidden bg-white py-2.5 sm:px-3.5 w-full border-b border-b-secondary/30">
       <div className="flex justify-between items-center gap-x-4 gap-y-2 w-full px-2 sm:container">
       <Link
-              href="https://api.whatsapp.com/send?phone=5567991118988"
+              href="https://api.whatsapp.com/send?phone=556793140747"
               rel="noreferrer"
               target="_blank"
               className=" transition hover:opacity-75 flex items-center gap-2 text-xs"

@@ -164,7 +164,7 @@ const Footer = () => {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <Link href="https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva" target='_blank' className="text-secondary transition hover:opacity-75"> Faça sua reserva </Link>
+                <Link href="https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva" target='_blank' className="text-secondary transition hover:opacity-75"> Faça sua reserva </Link>
               </li>
             </ul>
           </div>

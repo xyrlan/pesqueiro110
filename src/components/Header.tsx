@@ -57,7 +57,7 @@ const Header = () => {
     },
     { name: 'Missão', href: '/mvv' },
 
-    { name: 'Reserve', href: 'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva' },
+    { name: 'Reserve', href: 'https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva' },
   ]
 
 
@@ -83,7 +83,7 @@ const Header = () => {
             <div className="max-md:hidden sm:flex sm:gap-4">
               <Link
                 target='_blank'
-                href="https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva"
+                href="https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva"
               >
                 <Button >
                   Faça sua reserva

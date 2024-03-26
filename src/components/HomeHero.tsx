@@ -41,7 +41,7 @@ const HomeHero = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-center justify-center">
-              <Link href={'https://wa.me/5567991118988/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'} >
+              <Link href={'https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'} >
                 <Button >
                   Fazer Reserva
                 </Button>
