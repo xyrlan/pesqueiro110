@@ -16,14 +16,23 @@ const HospedagemPage = () => {
         </div> */}
         <div className='flex flex-col items-center gap-5 mt-10'>
           <h2 className='text-3xl text-secondary font-medium'>
+            Day Use
+          </h2>
+          <p className='max-w-lg text-center'>Pescaria no Rio, área de lazer com piscinas e píer, restaurante e muita natureza</p>
+          <p className='text-primary font-medium'>
+            <span className='text-secondary font-medium'>Diária:</span> R$ 40,00 por pessoa
+          </p>
+        </div>
+        <div className='flex flex-col items-center gap-5 mt-10'>
+          <h2 className='text-3xl text-secondary font-medium'>
             Área de Camping
           </h2>
-          <p className='max-w-lg text-center'>Não é cobrado tarifa de entrada, no camping temos várias churrasqueiras disponíveis inclusive três piscinas infantis, biribol e social já incluso nas diárias</p>
+          <p className='max-w-lg text-center'>No camping temos várias churrasqueiras disponíveis inclusive três piscinas infantis, biribol e social já incluso nas diárias</p>
           <p className='text-primary font-medium'>
             <span className='text-secondary font-medium'>Diária:</span> R$ 70,00 por pessoa
           </p>
         </div>
-        <div className='flex flex-col items-center gap-5 mt-10'>
+        {/* <div className='flex flex-col items-center gap-5 mt-10'>
           <h2 className='text-3xl text-secondary font-medium'>
             Casa para alugar
           </h2>
@@ -31,13 +40,16 @@ const HospedagemPage = () => {
             Dois quartos, sala, cozinha, banheiro, lavanderia, geladeira, tv, fogão, sofá, mesas e cadeiras.
           </p>
           <p className='text-primary font-medium'> <span className='text-secondary font-medium'>Diária:</span> R$ 90,00 por pessoa.</p>
-        </div>
+        </div> */}
         <div className='flex flex-col items-center gap-5 mt-10'>
           <h2 className='text-3xl text-secondary font-medium'>
             Apartamentos do Fundo
           </h2>
+          <p className='max-w-lg text-center'>
+            Cama de casal, banheiro, TV e ar-condicionado
+          </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 130,00 por pessoa (sem refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
           </p>
 
         </div>
@@ -45,8 +57,11 @@ const HospedagemPage = () => {
           <h2 className='text-3xl text-secondary font-medium'>
             Apartamentos da Frente
           </h2>
+          <p className='max-w-lg text-center'>
+            Cama de casal, banheiro, TV e ar-condicionado
+          </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 250,00 por pessoa (sem refeições).
           </p>
 
         </div>
