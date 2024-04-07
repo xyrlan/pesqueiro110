@@ -20,7 +20,7 @@ const HospedagemPage = () => {
           </h2>
           <p className='max-w-lg text-center'>Pescaria no Rio, área de lazer com piscinas e píer, restaurante e muita natureza</p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 40,00 por pessoa
+            <span className='text-secondary font-medium'>Diária:</span> R$ 50,00 por pessoa
           </p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
@@ -29,7 +29,7 @@ const HospedagemPage = () => {
           </h2>
           <p className='max-w-lg text-center'>No camping temos várias churrasqueiras disponíveis inclusive três piscinas infantis, biribol e social já incluso nas diárias</p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 70,00 por pessoa
+            <span className='text-secondary font-medium'>Diária:</span> R$ 90,00 por pessoa
           </p>
         </div>
         {/* <div className='flex flex-col items-center gap-5 mt-10'>
