@@ -22,11 +22,14 @@ const RestauranteSection = () => {
           <h2 className='text-center text-2xl mb-5 text-primary'>Almoço Comercial</h2>
           <div className='flex gap-10 items-center sm:flex-row flex-col'>
             <div className='sm:w-1/2 text-center space-y-8 sm:text-lg'>
+
               <p><strong className='text-primary'>Horários:</strong>{' '}
                 <br />
-                <span>Almoço: 11:00 horas às 15:00 horas</span>
+                <span><span className='font-medium text-secondary'>Café da Manhã:</span> 6:00 às 9:00 horas (self-service R$ 55,00 por pessoa)</span>
                 <br />
-                <span>Janta: 18:00 horas às 23:00 horas</span>
+                <span><span className='font-medium text-secondary'>Almoço:</span> 11:00 às 15:00 horas (à la carte)</span>
+                <br />
+                <span><span className='font-medium text-secondary'>Janta:</span> 18:00 às 23:00 horas (à la carte)</span>
               </p>
               <p><strong className='text-primary'>Preparo:</strong>
                 <br />
