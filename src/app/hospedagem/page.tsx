@@ -8,7 +8,7 @@ const HospedagemPage = () => {
     <section id='peixes' className="sm:py-24 py-12 bg-[url('/images/fish-icon-1.png')] min-h-screen bg-no-repeat bg-blend-exclusion bg-[bottom_left] max-sm:bg-right bg-fixed bg-gray-100 text-center">
       <div className="sm:container px-4 sm:px-6 lg:px-8 py-32">
         <h1 className='text-4xl text-primary mb-10 font-medium tracking-tighter'>Hospedagem</h1>
-        <p className='my-2'>Obs: todos os apartamentos e casa tem ventiladores AR e TV, banheiros, roupas de cama e toalhas.</p>
+        <p className='my-2'>Obs: todas as casas tem ventiladores AR, banheiros, roupas de cama e toalhas.</p>
         {/* <div className='flex flex-col md:flex-row gap-4 justify-between'>
           <Image src={'/images/piscina.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
           <Image src={'/images/banheiro.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
@@ -46,7 +46,7 @@ const HospedagemPage = () => {
             Apartamentos do Fundo
           </h2>
           <p className='max-w-lg text-center'>
-            Cama de casal, banheiro, TV e ar-condicionado
+            Cama de casal, banheiro e ar-condicionado
           </p>
           <p className='text-primary font-medium'>
             <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
@@ -58,7 +58,7 @@ const HospedagemPage = () => {
             Apartamentos da Frente
           </h2>
           <p className='max-w-lg text-center'>
-            Cama de casal, banheiro, TV e ar-condicionado
+            Cama de casal, banheiro e ar-condicionado
           </p>
           <p className='text-primary font-medium'>
             <span className='text-secondary font-medium'>Diária:</span> R$ 250,00 por pessoa (sem refeições).
