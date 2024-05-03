@@ -34,7 +34,7 @@ const SobreCard = ({ image, text, title, href }: any) => {
             {text}
           </p>
 
-          <p className="mt-8 font-bold text-secondary">Saber mais</p>
+          <p className="mt-8 font-bold text-secondary">Consultar Preços</p>
         </div>
       </div>
     </Link>

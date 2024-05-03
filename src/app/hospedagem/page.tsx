@@ -9,11 +9,6 @@ const HospedagemPage = () => {
       <div className="sm:container px-4 sm:px-6 lg:px-8 py-32">
         <h1 className='text-4xl text-primary mb-10 font-medium tracking-tighter'>Hospedagem</h1>
         <p className='my-2'><span className='font-medium text-secondary'>Obs:</span> todas as casas tem ventiladores AR, banheiros, roupas de cama e toalhas.</p>
-        {/* <div className='flex flex-col md:flex-row gap-4 justify-between'>
-          <Image src={'/images/piscina.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
-          <Image src={'/images/banheiro.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
-          <Image src={'/images/cama.png'} width={400} height={400} alt='sobrepic' className='w-full h-[260px]' />
-        </div> */}
         <div className='flex flex-col items-center gap-5 mt-10'>
           <h2 className='text-3xl text-secondary font-medium'>
             Day Use

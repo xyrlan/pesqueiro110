@@ -62,7 +62,8 @@ const HomeSobre = () => {
 
         </div>
         <div className='md:mt-40 mt-20'>
-          <h2 className="text-3xl font-extrabold text-primary mb-10 max-sm:text-center">Muito Mais que Um Pesqueiro</h2>
+          <h2 className="text-3xl font-extrabold text-primary mb-4 max-sm:text-center">Muito Mais que Um Pesqueiro</h2>
+          <p className='text-lg font-medium text-secondary mb-10'>Consulte os preços aqui</p>
           <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} viewport={{ once: true }} className='flex sm:flex-row flex-col justify-between gap-10 md:mt-20'>
             {content.map((item, index) => (
               <SobreCard key={index} {...item} />
