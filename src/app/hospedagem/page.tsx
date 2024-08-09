@@ -17,6 +17,7 @@ const HospedagemPage = () => {
           <p className='text-primary font-medium'>
             <span className='text-secondary font-medium'>Diária:</span> R$ 50,00 por pessoa
           </p>
+          <p className=''>Obs: até 5 anos de idade não paga e de 6 a 10 anos paga meia taxa.</p>
         </div>
         <div className='flex flex-col items-center gap-5 mt-10'>
           <h2 className='text-3xl text-secondary font-medium'>
