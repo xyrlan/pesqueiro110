@@ -38,7 +38,7 @@ const HospedagemPage = () => {
             Cama de casal, banheiro e ar-condicionado
           </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 150,00 por pessoa (sem refeições).
           </p>
 
           <h3 className='text-lg text-secondary'>Frente</h3>
@@ -49,6 +49,22 @@ const HospedagemPage = () => {
             <span className='text-secondary font-medium'>Diária:</span> R$ 250,00 por pessoa (sem refeições).
           </p>
         </div>
+
+                <div className='flex flex-col items-center gap-5 mt-10'>
+          <h2 className='text-3xl text-secondary font-medium'>
+            Casa
+          </h2>
+           
+
+          <h3 className='text-lg text-secondary'>Obs: acima de 4 pessoas</h3>
+          <p className='max-w-lg text-center'>
+            1 Sala, 2 Quartos com ar-condicionado, 1 Cozinha, 1 Varanda, 1 Lavanderia, 1 Banheiro
+          </p>
+          <p className='text-primary font-medium'>
+            <span className='text-secondary font-medium'>Diária:</span> R$ 150,00 por pessoa (sem refeições).
+          </p>
+        </div>
+        
         
         <Link href={'https://wa.me/556793140747/?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20uma%20reserva'}>
           <Button size={'lg'} variant={'primary'} className='md:mt-20 my-10 w-full'>
