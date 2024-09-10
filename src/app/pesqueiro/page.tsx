@@ -44,13 +44,13 @@ export const metadata: Metadata = {
               <Image src={'/images/chata.png'} width={400} height={400} alt='sobrepic' className='md:h-[260px] h-[200px]' />
               <h3 className='text-2xl text-primary font-medium'>Barco chata 6 metros</h3>
               <p><strong className='text-secondary'>Diária:</strong> R$ 120,00</p>
-              <p><strong className='text-secondary'>Barco Completo:</strong> motor, piloteiro e gasolina, máximo 3 pescadores cada barco: R$ 600,00 a diária </p>
+              <p><strong className='text-secondary'>Barco Completo:</strong> motor, piloteiro e gasolina, máximo 3 pescadores cada barco: R$ 700,00 a diária </p>
             </div>
             <div className='md:w-1/2 flex flex-col items-center gap-2'>
               <Image src={'/images/bordaalta.png'} width={400} height={400} alt='sobrepic' className='md:h-[260px] h-[200px]' />
               <h3 className='text-2xl text-primary font-medium'>Barco borda alta 6 metros</h3>
               <p><strong className='text-secondary'>Diária:</strong> R$ 100,00</p>
-              <p><strong className='text-secondary'>Barco Completo:</strong> motor, piloteiro e gasolina, máximo 3 pescadores cada barco: R$ 580,00 a diária </p>
+              <p><strong className='text-secondary'>Barco Completo:</strong> motor, piloteiro e gasolina, máximo 3 pescadores cada barco: R$ 700,00 a diária </p>
             </div>
           </div>
 
