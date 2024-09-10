@@ -25,15 +25,15 @@ const RestauranteSection = () => {
 
               <p><strong className='text-primary'>Horários:</strong>{' '}
                 <br />
-                <span><span className='font-medium text-secondary'>Café da Manhã:</span> 6:00 às 9:00 horas (self-service R$ 55,00 por pessoa)</span>
+                <span><span className='font-medium text-secondary'>Café da Manhã:</span> 6:00 às 9:00 horas</span>
                 <br />
-                <span><span className='font-medium text-secondary'>Almoço:</span> 11:00 às 15:00 horas (à la carte)</span>
+                <span><span className='font-medium text-secondary'>Almoço:</span> 11:00 às 15:00 horas</span>
                 <br />
-                <span><span className='font-medium text-secondary'>Janta:</span> 18:00 às 23:00 horas (à la carte)</span>
+                <span><span className='font-medium text-secondary'>Janta:</span> 18:00 às 23:00 horas</span>
               </p>
               <p><strong className='text-primary'>Preparo:</strong>
                 <br />
-                Comida caseira preparada no fogão a lenha.</p>
+                Todas as refeições são self-service R$ 55,00 por pessoa</p>
             </div>
             <Image className='sm:w-1/2 max-h-[400px] object-contain' src={'/images/comida.jpeg'} width={300} height={300} alt='almoco' />
           </div>
