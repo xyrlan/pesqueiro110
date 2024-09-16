@@ -38,7 +38,7 @@ const HospedagemPage = () => {
             Cama de casal, banheiro e ar-condicionado
           </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 150,00 por pessoa (sem refeições).
+            <span className='text-secondary font-medium'>Diária:</span> R$ 180,00 por pessoa (sem refeições).
           </p>
 
           <h3 className='text-lg text-secondary'>Frente</h3>
