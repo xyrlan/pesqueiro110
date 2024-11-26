@@ -61,7 +61,7 @@ const HospedagemPage = () => {
             1 Sala, 2 Quartos com ar-condicionado, 1 Cozinha, 1 Varanda, 1 Lavanderia, 1 Banheiro
           </p>
           <p className='text-primary font-medium'>
-            <span className='text-secondary font-medium'>Diária:</span> R$ 150,00 por pessoa.
+            <span className='text-secondary font-medium'>Diária:</span> R$ 150,00 por pessoa (somente hospedagem).
           </p>
         </div>
         
