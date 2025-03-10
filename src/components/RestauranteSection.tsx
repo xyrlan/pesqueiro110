@@ -38,14 +38,14 @@ const RestauranteSection = () => {
             <Image className='sm:w-1/2 max-h-[400px] object-contain' src={'/images/comida.jpeg'} width={300} height={300} alt='almoco' />
           </div>
         </div>
-        <div className='flex justify-center'>
+{/*         <div className='flex justify-center'>
           <Link target='_blank' href={'https://cardapioja.com.br/pesqueiro110'}>
             <Button className='mt-20'>
               Acesse aqui o cardápio
             </Button>
           </Link>
         </div>
-
+ */}
         {/* 
         <div className='text-center mt-20'>
           <h2 className='text-2xl'>Especialidades</h2>
